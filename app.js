@@ -32,8 +32,8 @@ function changeLinksActions() {
                 const pageName = e.target.href
                     .replace(e.target.origin, '')
                     .replace(/\.html/, '')
-                    .replace(/pages/, '')
-                    .replace(/^\//, '');
+                    .replace(/^\//, '')
+                    .replace(/^pages/, '');
                 
                 loadPage(pageName);
             } else {
