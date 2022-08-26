@@ -43,9 +43,9 @@ function changeLinksActions() {
     })
 }
 
- function inti() {
+ function init() {
     mainTitle = document.title;
     loadPage('a');
  }
  
- inti()
+ init()
